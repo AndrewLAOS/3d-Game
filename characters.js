@@ -33,11 +33,25 @@ export const characters = {
     },
     {
       name: "Mousy",
-      cost: 350,
+      cost: 60,
       unlocked: false,
       modelPath: "./mousy.glb",
       scale: 1.0,
       description: "Laosy da Mousy",
+      stats: {
+        speed: 9,      // very quick
+        jump: 8,       // super jumper
+        power: 2,      // light but nimble
+        stamina: 3     // low endurance
+      }
+    },
+          {
+      name: "Potato",
+      cost: 70,
+      unlocked: false,
+      modelPath: "./potatocloud.glb",
+      scale: 0.7,
+      description: "Must buy this its great!",
       stats: {
         speed: 9,      // very quick
         jump: 8,       // super jumper
